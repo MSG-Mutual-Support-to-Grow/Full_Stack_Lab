@@ -1,0 +1,99 @@
+  body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+  }
+
+  /* --- Calculator Container --- */
+  .calculator-container {
+      width: 400px;
+      padding: 30px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+
+  /* --- Header Styles --- */
+  .header-box {
+      background-color: #007bff;
+      /* Blue box as shown in image */
+      color: white;
+      padding: 10px 0;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+
+  .input-prompt {
+      color: #800080;
+      /* Purple/Maroon color for "Enter the Birth Date" */
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 25px;
+  }
+
+  /* --- Input Fields Layout --- */
+  .input-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 15px;
+  }
+
+  .input-group label {
+      font-size: 12px;
+      margin-bottom: 5px;
+      color: #555;
+      font-weight: 500;
+  }
+
+  .input-group input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 14px;
+  }
+
+  /* --- Button Style --- */
+  #find-age-btn {
+      background-color: #007bff;
+      /* Blue button */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+      width: 50%;
+      /* Adjust to look centered and proportionate */
+      transition: background-color 0.3s;
+  }
+
+  #find-age-btn:hover {
+      background-color: #0056b3;
+  }
+
+  /* --- Results Styles --- */
+  .result-header {
+      color: #000080;
+      /* Dark Blue for "Age Details" */
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 15px;
+  }
+
+  #age-result {
+      color: #2e8b57;
+      /* Sea Green for the final result */
+      font-size: 18px;
+      font-weight: bold;
+      min-height: 25px;
+      /* Reserve space to prevent layout shift */
+  }

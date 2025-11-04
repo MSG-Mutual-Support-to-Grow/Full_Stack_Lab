@@ -1,0 +1,30 @@
+.header{
+align-items: center;
+}
+h1{
+    text-align: center;
+}
+.h-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+}
+form div{
+    margin: 5px;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+section div{
+    display: flex;
+    flex-direction: row;
+}

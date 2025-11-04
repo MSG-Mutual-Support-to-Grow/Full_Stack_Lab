@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    /* background-color: antiquewhite; */
+  }
+  #myDiv {
+    background-color: rgb(12, 206, 240);
+    color: black;
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    line-height: 150px;
+    border: 1px solid black;
+    border-radius: 0px;
+    opacity: 1;
+  }
+  .controls {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+  }

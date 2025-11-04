@@ -1,4 +1,4 @@
-# Ex-3 — Karunya Institute Demo Page
+# Ex-3 — RESPONSIVE WEBPAGE USING HTML5 AND CSS3
 
 This experiment (Ex-3) is a simple static HTML page demonstrating a small informational site for an educational institute. The page shows how to structure content (hero image, about text, gallery, testimonials) and references image assets and a stylesheet.
 

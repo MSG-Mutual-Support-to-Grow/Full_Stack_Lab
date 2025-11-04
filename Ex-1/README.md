@@ -1,4 +1,4 @@
-# Ex-1 — Full Stack Lab: Simple Resume Page
+# Ex-1 — Full Stack Lab: Design a Web Page using HTML
 
 This experiment (Ex-1) is a small, self-contained front-end example demonstrating a static resume/personal page built with plain HTML and CSS. It's intended for beginners to inspect the structure of an HTML document, how content is organized into semantic sections, and how a separate stylesheet (`styles.css`) is used to style the page.
 

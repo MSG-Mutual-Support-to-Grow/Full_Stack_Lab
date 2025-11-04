@@ -1,4 +1,4 @@
-# Ex-2 — Media & Embeds Example
+# Ex-2 — Working with HTML5 Form and Media Elements
 
 This experiment (Ex-2) demonstrates a simple HTML page (`Application.html` / `index.html`) that showcases various media elements and embedded content commonly used in web pages: audio, images, PDF/embed, YouTube iframe, Google Maps iframe, and video. The page is intentionally minimal and intended for learning how media tags and iframes behave in a basic static site.
 

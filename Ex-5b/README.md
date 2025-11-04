@@ -61,18 +61,3 @@ Weight: 70 kg
 Height: 1.75 m
 Result: BMI: 22.86 - Normal weight
 ```
-
-## Browser Compatibility
-- ✅ Chrome
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-
-## Future Enhancements
-- Add metric/imperial unit conversion
-- Save calculation history
-- Add more detailed health information
-- Mobile app version
-
----
-**Created as part of Full Stack Lab exercises**

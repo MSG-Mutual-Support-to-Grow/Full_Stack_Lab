@@ -106,4 +106,3 @@ Scenario 2: Create a transparent overlay
 - Width: Set to 400
 - Height: Set to 300
 ```
-**Created as part of Full Stack Lab exercises**

@@ -120,4 +120,3 @@ Danger Alert: Displays when car reaches road boundary
 | Danger message always visible | Check that CSS has `display: none` initially |
 
 
-**Created as part of Full Stack Lab exercises**

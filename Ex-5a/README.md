@@ -86,4 +86,3 @@ Input: 100 and 4
 Click: / Divide
 Output: Result: 25
 ```
-**Created as part of Full Stack Lab exercises**

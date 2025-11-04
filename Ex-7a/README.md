@@ -179,5 +179,3 @@ if (ageDays < 0) {
 - Accounts for varying days in different months
 - Adjusts years when necessary months are negative
 - Correctly handles leap years through JavaScript Date object
-
-**Created as part of Full Stack Lab exercises**

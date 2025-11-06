@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background-color: #0052cc;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Content */
+.content {
+    padding: 30px;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #0052cc;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #0052cc;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 82, 204, 0.3);
+}
+
+.input-field::placeholder {
+    color: #999;
+}
+
+/* Add Product Button */
+.btn-add-product {
+    padding: 10px 30px;
+    background-color: #f5f5f5;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-add-product:hover {
+    background-color: #e8e8e8;
+    border-color: #666;
+}
+
+.btn-add-product:active {
+    background-color: #d0d0d0;
+}
+
+/* Divider */
+.divider {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Table Section */
+.table-section {
+    margin-top: 20px;
+}
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.products-table thead {
+    background-color: #28a745;
+    color: white;
+}
+
+.products-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.col-name {
+    width: 40%;
+}
+
+.col-price {
+    width: 30%;
+}
+
+.col-action {
+    width: 30%;
+}
+
+.products-table tbody tr {
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.products-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.products-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.products-table tbody tr:nth-child(even):hover {
+    background-color: #e8e8e8;
+}
+
+.products-table td {
+    padding: 12px 15px;
+    font-size: 14px;
+}
+
+.cell-name {
+    color: #0052cc;
+    font-weight: bold;
+}
+
+.cell-price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.cell-action {
+    text-align: center;
+}
+
+/* Delete Button */
+.btn-delete {
+    padding: 6px 12px;
+    background-color: #ffcccc;
+    color: #cc0000;
+    border: 1px solid #ff9999;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #ff9999;
+    color: white;
+}
+
+.btn-delete:active {
+    background-color: #ff6666;
+}
+
+/* Empty Message */
+.empty-message {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 16px;
+}
+
+.empty-message p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .input-field {
+        max-width: 100%;
+    }
+
+    .col-name {
+        width: 35%;
+    }
+
+    .col-price {
+        width: 35%;
+    }
+
+    .col-action {
+        width: 30%;
+    }
+
+    .products-table th,
+    .products-table td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .btn-delete {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .input-field {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .btn-add-product {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    .products-table th,
+    .products-table td {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .col-name {
+        width: 40%;
+    }
+
+    .col-price {
+        width: 30%;
+    }
+
+    .col-action {
+        width: 30%;
+    }
+
+    .btn-delete {
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+}

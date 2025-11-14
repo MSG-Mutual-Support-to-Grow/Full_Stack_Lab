@@ -1,29 +1,28 @@
-let car, interval;
-let position = 0;
+let car, interval, position = 0;
 
-window.onload = function() {
+window.onload = function(){
   car = document.getElementById("car");
 };
 
-function startCar() {
+function startCar(){
   clearInterval(interval);
-  interval = setInterval(moveCar, 20);
+  interval = setInterval(moveCar, 5);
   document.getElementById("dangerBox").style.display = "none";
 }
 
-function stopCar() {
+function stopCar(){
   clearInterval(interval);
 }
 
-function resetCar() {
+function resetCar(){
   clearInterval(interval);
   position = 0;
-  car.style.left = position + "px";
+  car.style.left = "0px";
   document.getElementById("dangerBox").style.display = "none";
 }
 
-function moveCar() {
-  if (position < window.innerWidth - 150) {
+function moveCar(){
+  if (position < window.innerWidth - 150){
     position += 5;
     car.style.left = position + "px";
   } else {

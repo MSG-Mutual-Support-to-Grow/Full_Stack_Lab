@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Currency Converter - Ex-5c</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Currency Converter</h1>
+
+    <div class="converter">
+      <div class="row">
+        <label for="from-currency">From:</label>
+        <select id="from-currency" onchange="convert()">
+          <option value="USD">USD - US Dollar</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="GBP">GBP - British Pound</option>
+          <option value="INR">INR - Indian Rupee</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="to-currency">To:</label>
+        <select id="to-currency" onchange="convert()">
+          <option value="USD">USD - US Dollar</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="GBP">GBP - British Pound</option>
+          <option value="INR">INR - Indian Rupee</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="amount">Amount:</label>
+        <input id="amount" type="number" min="0" step="any" value="1" onchange="convert()" />
+      </div>
+
+      <div class="row result-row">
+        <label>Result:</label>
+        <div id="result">—</div>
+      </div>
+
+      <div class="row actions">
+        <button id="swap" type="button" onclick="swapCurrencies()">Swap</button>
+      </div>
+
+      <p class="note">Conversion rates are static/hard-coded for this demo. Use onchange by selecting different currencies or changing the amount.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

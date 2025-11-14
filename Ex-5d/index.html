@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cake Order - Ex-5d</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Cake Order</h1>
+
+    <div class="card">
+      <div class="row">
+        <label for="cake">Choose Cake</label>
+        <select id="cake" onchange="update()">
+          <option value="chocolate">Chocolate Cake - ₹500</option>
+          <option value="vanilla">Vanilla Cake - ₹450</option>
+          <option value="redvelvet">Red Velvet - ₹600</option>
+          <option value="blackforest">Black Forest - ₹550</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="qty">Quantity</label>
+        <input id="qty" type="number" min="1" value="1" onchange="update()">
+      </div>
+
+      <div class="row image-row">
+        <img id="cake-img" src="https://via.placeholder.com/160?text=Chocolate+Cake" alt="cake" />
+      </div>
+
+      <div class="row">
+        <label>Total</label>
+        <div id="total">₹ 0.00</div>
+      </div>
+
+      <div class="row">
+        <button id="calc" type="button" onclick="update()">Calculate</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
